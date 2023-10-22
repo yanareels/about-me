@@ -76,6 +76,10 @@
   border-radius: 50px;
 }
 
+.promo-item {
+  min-width: 100%;
+  scroll-snap-align: start;
+}
 
 
 
