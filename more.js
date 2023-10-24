@@ -10,7 +10,7 @@ function myFunction() {
       moreText.style.display = "none";
     } else {
       dots.style.display = "none";
-      btnText.innerHTML = "Читать меньше"; 
+      btnText.innerHTML = "Скрыть текст"; 
       moreText.style.display = "inline";
     }
   }
