@@ -54,7 +54,7 @@
 
 
 /* has-scrollbar */
-/* .has-scrollbar {
+.has-scrollbar {
   display: flex;
   gap: 10px;
   overflow-x: auto;
@@ -79,7 +79,7 @@
 .promo-item {
   min-width: 100%;
   scroll-snap-align: start;
-} */
+}
 
 
 
