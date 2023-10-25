@@ -25,7 +25,7 @@ function toggleText() {
  
                 // Change the text on button to 
                 // 'Show More'
-                buttonText.innerHTML = "Show More";
+                buttonText.innerHTML = "Узнать больше";
             }
  
             // If the hidden portion is revealed,
@@ -41,6 +41,6 @@ function toggleText() {
  
                 // Change the text on button
                 // to 'Show Less'
-                buttonText.innerHTML = "Show Less";
+                buttonText.innerHTML = "Скрыть";
             }
         }
