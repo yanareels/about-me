@@ -1,16 +1,16 @@
 // читать далее
-function myFunction2() {
-    var dots2 = document.getElementById("dots2");
-    var moreText2 = document.getElementById("more2");
-    var btnText2 = document.getElementById("myBtn2");
+function myFunctionTwo() {
+    let dotsTwo = document.getElementById("dotsTwo");
+    let moreTextTwo = document.getElementById("moreTwo");
+    let btnTextTwo = document.getElementById("myBtnTwo");
   
-    if (dots2.style.display === "none") {
-      dots2.style.display = "inline";
-      btnText2.innerHTML = "Читать больше"; 
-      moreText2.style.display = "none";
+    if (dotsTwo.style.display === "none") {
+      dotsTwo.style.display = "inline";
+      btnTextTwo.innerHTML = "Читать больше"; 
+      moreTextTwo.style.display = "none";
     } else {
-      dots2.style.display = "none";
-      btnText2.innerHTML = "Скрыть текст"; 
-      moreText2.style.display = "inline";
+      dotsTwo.style.display = "none";
+      btnTextTwo.innerHTML = "Скрыть текст"; 
+      moreTextTwo.style.display = "inline";
     }
   }
