@@ -926,6 +926,7 @@ textarea.input-field {
   opacity: 1;
   pointer-events: all;
   transform: translateY(0);
+  background: #0088cc;
 }
 
 
