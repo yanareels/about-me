@@ -980,27 +980,19 @@ textarea.input-field {
 
 
 
-/**
- * responsive for larger than 992px screen
- */
+/* responsive for larger than 992px screen */
 
 @media (min-width: 992px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+  /* custom property */
 
   :root {
 
-    /**
-     * typography
-     */
+    /* typography */
 
     --fs-2: 3rem;
 
-    /**
-     * spacing
-     */
+    /* spacing */
 
     --section-padding: 100px;
 
@@ -1008,9 +1000,7 @@ textarea.input-field {
 
 
 
-  /**
-   * REUSED STYLE
-   */
+  /* resud style */
 
   .container { max-width: 980px; }
 
@@ -1036,9 +1026,7 @@ textarea.input-field {
 
 
 
-  /**
-   * HEADER
-   */
+  /* header */
 
   .header { padding-block: 30px; }
 
@@ -1076,9 +1064,7 @@ textarea.input-field {
 
 
 
-  /**
-   * HERO
-   */
+  /* hero */
 
   .hero {
     position: relative;
@@ -1173,9 +1159,7 @@ textarea.input-field {
 
 
 
-  /**
-   * STATS
-   */
+  /* stats */
 
   .stats-list { grid-template-columns: repeat(3, 1fr); }
 
@@ -1184,9 +1168,7 @@ textarea.input-field {
 
 
 
-  /**
-   * ABOUT
-   */
+  /* adout */
 
   .about {
     display: grid;
@@ -1200,9 +1182,7 @@ textarea.input-field {
 
 
 
-  /**
-   * SKILLS
-   */
+  /* skills */
 
   .skills {
     display: grid;
@@ -1217,9 +1197,7 @@ textarea.input-field {
 
 
 
-  /**
-   * PROJECT
-   */
+ /* project */
 
   .project-list { column-count: 3; }
 
@@ -1231,9 +1209,7 @@ textarea.input-field {
 
 
 
-  /**
-   * CONTACT
-   */
+  /* contact */
 
   .contact {
     display: grid;
@@ -1249,9 +1225,7 @@ textarea.input-field {
 
 
 
-  /**
-   * FOOTER
-   */
+ /* footer */
 
   .footer .container {
     display: flex;
@@ -1267,15 +1241,11 @@ textarea.input-field {
 
 
 
-/**
- * responsive for larger than 1200px screen
- */
+/* responsive for larger than 1200px screen */
 
 @media (min-width: 1200px) {
 
-  /**
-   * REUSED STYLE
-   */
+  /* resud style */
 
   .container { max-width: 1150px; }
 
@@ -1284,9 +1254,7 @@ textarea.input-field {
 
 
 
-  /**
-   * HERO
-   */
+  /* hero */
 
   .hero-social-list { left: -80px; }
 
@@ -1295,9 +1263,7 @@ textarea.input-field {
 
 
 
-  /**
-   * ABOUT
-   */
+  /* about */
 
   .about-banner { max-width: 450px; }
 
