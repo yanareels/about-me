@@ -868,9 +868,7 @@ textarea.input-field {
 
 
 
-/*-----------------------------------*\
- * #GO TO TOP
-\*-----------------------------------*/
+/* go top telegram */
 
 .go-top {
   position: fixed;
@@ -902,13 +900,9 @@ textarea.input-field {
 
 
 
-/*-----------------------------------*\
- * #MEDIA QUERIES
-\*-----------------------------------*/
+/* media queris */
 
-/**
- * responsive for larger than 550px screen
- */
+/* responsive for larger than 550px screen */
 
 @media (min-width: 550px) {
 
@@ -925,9 +919,7 @@ textarea.input-field {
 
 
 
-  /**
-   * PROJECT
-   */
+  /* project */
 
   .project-list {
     column-count: 2;
@@ -942,15 +934,11 @@ textarea.input-field {
 
 
 
-/**
- * responsive for larger than 768px screen
- */
+/* responsive for larger than 768px screen */
 
 @media (min-width: 768px) {
 
-  /**
-   * REUSED STYLE
-   */
+  /* resud style */
 
   .container { max-width: 720px; }
 
@@ -958,17 +946,13 @@ textarea.input-field {
 
 
 
-  /**
-   * STATS
-   */
+ /* stats */
 
   .stats-list { grid-template-columns: 1fr 1fr; }
 
 
 
-  /**
-   * ABOUT
-   */
+  /* about */
 
   .btn-group {
     display: flex;
@@ -983,9 +967,7 @@ textarea.input-field {
 
 
 
-  /**
-   * CONTACT
-   */
+  /* contact */
 
   .contact-form {
     max-width: 450px;
