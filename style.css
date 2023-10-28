@@ -2,9 +2,7 @@
 
 :root {
 
-  /**
-   * colors
-   */
+  /* color */
 
   --raw-seinna: hsl(24, 74%, 58%);
   --sizzling-sunrise: hsl(51, 95%, 54%);
@@ -12,9 +10,7 @@
   --black: hsl(0, 0%, 0%);
   --white: hsl(0, 0%, 100%);
 
-  /**
-   * typography
-   */
+  /* typograph */
 
   --ff-saira-stencil-one: "Saira Stencil One", sans-serif; 
   --ff-poppins: 'Poppins', sans-serif;
@@ -31,21 +27,15 @@
   --fw-400: 400;
   --fw-700: 700;
 
-  /**
-   * transition
-   */
+  /* transition */
 
   --transition-1: 0.25s ease-in-out;
 
-  /**
-   * spacing
-   */
+  /* spacing */
 
   --section-padding: 80px;
 
-  /**
-   * radius
-   */
+  /* radius */
 
   --radius-4: 4px;
   --radius-12: 12px;
@@ -81,79 +71,11 @@
   scroll-snap-align: start;
 }
 
-/* CSS Кнопка градиент*/
-.button-gradient{
-  padding: 0.6em 2em;
-  border: none;
-  outline: none;
-  color: rgb(255, 255, 255);
-  background: #111;
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
-  border-radius: 10px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-gradient:before {
-  content: "";
-  background: linear-gradient(
-    45deg,
-    #ff0000,
-    #ff7300,
-    #fffb00,
-    #48ff00,
-    #00ffd5,
-    #002bff,
-    #7a00ff,
-    #ff00c8,
-    #ff0000
-  );
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background-size: 400%;
-  z-index: -1;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  animation: glowing-button-gradient 20s linear infinite;
-  transition: opacity 0.3s ease-in-out;
-  border-radius: 10px;
-}
-
-@keyframes glowing-button-gradient {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 400% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
-}
-
-.button-gradient:after {
-  z-index: -1;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #222;
-  left: 0;
-  top: 0;
-  border-radius: 10px;
-}
 
 
 
-/*-----------------------------------*\
- * #THEME COLORS
-\*-----------------------------------*/
+
+/* theme color */
 
 body.dark_theme {
 
@@ -185,9 +107,7 @@ body.light_theme {
 
 
 
-/*-----------------------------------*\
- * #RESET
-\*-----------------------------------*/
+/* reset */
 
 *, *::before, *::after {
   margin: 0;
@@ -253,9 +173,7 @@ body.active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
- * #REUSED STYLE
-\*-----------------------------------*/
+/* resud style */
 
 .container { padding-inline: 10px; }
 
@@ -359,9 +277,7 @@ body.active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
- * #HEADER
-\*-----------------------------------*/
+/* header */
 
 .header {
   padding-block: 15px;
@@ -537,9 +453,7 @@ body.active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
- * #HERO
-\*-----------------------------------*/
+/* hero */
 
 main { overflow-x: hidden; }
 
@@ -574,9 +488,7 @@ main { overflow-x: hidden; }
 
 
 
-/*-----------------------------------*\
- * #STATS
-\*-----------------------------------*/
+/* stats */
 
 .stats { padding-block: var(--section-padding); }
 
@@ -632,9 +544,7 @@ main { overflow-x: hidden; }
 
 
 
-/*-----------------------------------*\
- * #ABOUT
-\*-----------------------------------*/
+/* about */
 
 .about { padding-block: var(--section-padding); }
 
@@ -655,9 +565,7 @@ main { overflow-x: hidden; }
 
 
 
-/*-----------------------------------*\
- * #SKILLS
-\*-----------------------------------*/
+/* skils */
 
 .skills { padding-block: var(--section-padding); }
 
@@ -744,9 +652,7 @@ main { overflow-x: hidden; }
 
 
 
-/*-----------------------------------*\
- * #PROJECT
-\*-----------------------------------*/
+/* project */
 
 .project { padding-block: var(--section-padding); }
 
@@ -816,9 +722,7 @@ main { overflow-x: hidden; }
 
 
 
-/*-----------------------------------*\
- * #CONTACT
-\*-----------------------------------*/
+/* contact */
 
 .contact { padding-block: var(--section-padding); }
 
@@ -939,9 +843,7 @@ textarea.input-field {
 
 
 
-/*-----------------------------------*\
- * #FOOTER
-\*-----------------------------------*/
+/* footer */
 
 .footer {
   background: var(--bg-secondary);
