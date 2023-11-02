@@ -45,7 +45,7 @@
 
 /* has-scrollbar */
 .has-scrollbar {
-  display: flex;
+/*   display: flex; */
   gap: 10px;
   overflow-x: auto;
   scroll-snap-type: inline mandatory;
@@ -72,6 +72,7 @@
   border: 1px solid #fff;
   padding: 15px;
   border-radius: var(--radius-4);
+  margin-top: 75px;
 }
 
 
