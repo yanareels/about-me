@@ -6,7 +6,7 @@ function myFunction() {
   
     if (dots.style.display === "none") {
       dots.style.display = "inline";
-      btnText.innerHTML = "Читать больше"; 
+      btnText.innerHTML = "Подробнее о тарифе"; 
       moreText.style.display = "none";
     } else {
       dots.style.display = "none";
