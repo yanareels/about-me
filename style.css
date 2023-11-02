@@ -550,7 +550,7 @@ main { overflow-x: hidden; }
 
 /* about */
 
-.about { padding-block: var(--section-padding); }
+.about { padding-block: var(--section-padding); margin-top:80px;}
 
 .about-banner {
   max-width: 400px;
