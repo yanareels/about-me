@@ -25,7 +25,7 @@ function toggleText() {
  
                 // Change the text on button to 
                 // 'Show More'
-                buttonText.innerHTML = "Узнать больше";
+                buttonText.innerHTML = "Подробнее о тарифе";
             }
  
             // If the hidden portion is revealed,
